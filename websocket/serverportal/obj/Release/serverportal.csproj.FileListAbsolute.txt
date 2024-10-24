@@ -1,0 +1,4 @@
+C:\Users\BanalaTharun\source\repos\websocket\serverportal\obj\Release\serverportal.csproj.AssemblyReference.cache
+C:\Users\BanalaTharun\source\repos\websocket\serverportal\obj\Release\serverportal.csproj.CoreCompileInputs.cache
+C:\Users\BanalaTharun\source\repos\websocket\serverportal\obj\Release\serverportal.exe
+C:\Users\BanalaTharun\source\repos\websocket\serverportal\obj\Release\serverportal.pdb

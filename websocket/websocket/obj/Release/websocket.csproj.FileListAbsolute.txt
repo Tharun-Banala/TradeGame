@@ -1,0 +1,4 @@
+C:\Users\BanalaTharun\source\repos\websocket\websocket\obj\Release\websocket.csproj.AssemblyReference.cache
+C:\Users\BanalaTharun\source\repos\websocket\websocket\obj\Release\websocket.csproj.CoreCompileInputs.cache
+C:\Users\BanalaTharun\source\repos\websocket\websocket\obj\Release\websocket.exe
+C:\Users\BanalaTharun\source\repos\websocket\websocket\obj\Release\websocket.pdb
