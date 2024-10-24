@@ -1,0 +1,11 @@
+C:\Users\BanalaTharun\source\repos\websocket\clientportal\bin\Debug\clientportal.exe
+C:\Users\BanalaTharun\source\repos\websocket\clientportal\bin\Debug\clientportal.exe.config
+C:\Users\BanalaTharun\source\repos\websocket\clientportal\obj\Debug\clientportal.csproj.CoreCompileInputs.cache
+C:\Users\BanalaTharun\source\repos\websocket\clientportal\obj\Debug\clientportal.exe
+C:\Users\BanalaTharun\source\repos\websocket\clientportal\obj\Debug\clientportal.pdb
+C:\Users\BanalaTharun\source\repos\websocket\clientportal\bin\Debug\clientportal.pdb
+C:\Users\BanalaTharun\source\repos\websocket\clientportal\obj\Debug\clientportal.csproj.AssemblyReference.cache
+C:\Users\BanalaTharun\source\repos\websocket\clientportal\bin\Debug\clientportal.exe.manifest
+C:\Users\BanalaTharun\source\repos\websocket\clientportal\bin\Debug\clientportal.application
+C:\Users\BanalaTharun\source\repos\websocket\clientportal\obj\Debug\clientportal.exe.manifest
+C:\Users\BanalaTharun\source\repos\websocket\clientportal\obj\Debug\clientportal.application

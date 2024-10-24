@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="clientportal.exe" version="1.0.0.0" publicKeyToken="583d0af9c24ab7f3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="clientportal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="clientportal.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="clientportal.exe" size="11224">
+      <assemblyIdentity name="clientportal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>IehBFoYJkWJ9qEh16YDeS5ELWPNR1IjjcOx+wkl9ByI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="clientportal.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AzureAD\BanalaTharun" issuerKeyHash="a15986f5e33f991b359dbd74bf8909465631cf7c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HL8q8z7Wz+oFurKRq3gBlJc89Eu6e/LvhV8RrDO4HYk=</DigestValue></Reference></SignedInfo><SignatureValue>YeaV9Um0aAUF5aoOMwQQzDYO3IBhwOFZaCQt/WaQpeTCPhWZsrKByOjtesp3QXagKKC803f5YYVoUg5VCwZ47jw4Hnux56J624qMiuAeZ+3JEg/vaqcNqT8y2UaykBdUME5ZL9jsaxjG5EieHBbjxyZI+h/2WL/EMDltvYc6KWk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8UP166ubeDa3H80BffoN31E9mgaHm/yEd1IU609i4+tIYh0qs/DylvxyMht/S2j4RiaxnB0TzrNB+EPGUAzUKJ0//eaTz5PRbgj6EDahAX4P5UXcEFwqM9bubGeByUWggTBsrVXPt24RZ+t8U96cbGEM+SJvTBEm8pN56ZnvX9k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="891db833ac115f85eff27bba4bf43c97940178ab91b2ba05eacfd63ef32abf1c" Description="" Url=""><as:assemblyIdentity name="clientportal.exe" version="1.0.0.0" publicKeyToken="583d0af9c24ab7f3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AzureAD\BanalaTharun</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>06jXv0SdwU/IMtscHh1Sq1G49rQTsLqJswpAa48PYj8=</DigestValue></Reference></SignedInfo><SignatureValue>3nvmpORaVKheh5MnQbelyJtZItHxRSJMHbR2DknzztWo+AodwQoWLXcMSELQKkkynC9yCJlKX0fhijvg9iTfQi2Wm7njjg/aWZbxhwOwfxxZDSB+IPK0D2tNyFlzcqMDQIkJheSncJdbt7VV4I1o0dSuxnNWtXhs9hcWSY1juZU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8UP166ubeDa3H80BffoN31E9mgaHm/yEd1IU609i4+tIYh0qs/DylvxyMht/S2j4RiaxnB0TzrNB+EPGUAzUKJ0//eaTz5PRbgj6EDahAX4P5UXcEFwqM9bubGeByUWggTBsrVXPt24RZ+t8U96cbGEM+SJvTBEm8pN56ZnvX9k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQXlDZBm3vmYtM33qe17fbQjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAQQB6AHUAcgBlAEEARABcAEIAYQBuAGEAbABhAFQAaABhAHIAdQBuMB4XDTI0MTAxNTA2NDUwN1oXDTI1MTAxNTEyNDUwN1owMzExMC8GA1UEAx4oAEEAegB1AHIAZQBBAEQAXABCAGEAbgBhAGwAYQBUAGgAYQByAHUAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA8UP166ubeDa3H80BffoN31E9mgaHm/yEd1IU609i4+tIYh0qs/DylvxyMht/S2j4RiaxnB0TzrNB+EPGUAzUKJ0//eaTz5PRbgj6EDahAX4P5UXcEFwqM9bubGeByUWggTBsrVXPt24RZ+t8U96cbGEM+SJvTBEm8pN56ZnvX9kCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBYmwpX5y/FZRY/TjbcKPIBfnTNEL8jBOjdw3NQ0+iREA3fPP7dtmaQbhnZtQIih5FcU8TH9W+R3OwtVDYP+Mc7JjYxXZMuCoWCKfv9kdMaUOPLNeytO1J8Z0WrC6poqLuJ13g4CKGfd6S4UxJ+ItxYTXra72UT75TP1jZ4vyj4wg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
